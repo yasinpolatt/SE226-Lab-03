@@ -16,6 +16,8 @@ public:
     int sizee;
 
     Queue() {
+        head = nullptr;
+        tail = nullptr;
           
         sizee = 0;
     }
